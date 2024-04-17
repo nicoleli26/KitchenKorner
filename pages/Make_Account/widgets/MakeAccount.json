@@ -238,7 +238,7 @@
     "parentColumnSpace": 13.015625,
     "dynamicTriggerPathList": [],
     "borderWidth": "1",
-    "sourceData": "{{Table1.selectedRow}}",
+    "sourceData": "{{Users.selectedRow}}",
     "resetButtonLabel": "Reset",
     "key": "yb7iu9x721",
     "backgroundColor": "#fff",
