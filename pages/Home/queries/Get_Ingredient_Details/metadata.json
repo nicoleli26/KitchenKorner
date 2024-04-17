@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "Get_Cookbook",
+    "name": "Get_Ingredient_Details",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/c/cookbook"
+        "url": "web:4000/i/ingredient_details"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Page1",
+    "pageId": "Home",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -47,9 +47,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-17T05:37:20Z"
+    "createdAt": "2024-04-17T05:39:35Z"
   },
-  "id": "Page1_Get_Cookbook",
+  "id": "Home_Get_Ingredient_Details",
   "deleted": false,
-  "gitSyncId": "66198b5d6aa18321b71a68f6_661f6010e439770d06d8feec"
+  "gitSyncId": "66198b5d6aa18321b71a68f6_661f6097e439770d06d8fef0"
 }

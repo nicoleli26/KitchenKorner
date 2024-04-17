@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Page1",
+    "pageId": "Home",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -50,7 +50,7 @@
     "userPermissions": [],
     "createdAt": "2024-04-16T00:39:42Z"
   },
-  "id": "Page1_Get_Recipes",
+  "id": "Home_Get_Recipes",
   "deleted": false,
   "gitSyncId": "66198b5d6aa18321b71a68f6_661dc8ce7c06f752db34142b"
 }

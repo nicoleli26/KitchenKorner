@@ -1,8 +1,44 @@
 {
   "pages": [
     {
-      "id": "Page1",
+      "id": "Home",
       "isDefault": true
+    },
+    {
+      "id": "Make_Post",
+      "isDefault": false
+    },
+    {
+      "id": "Search",
+      "isDefault": false
+    },
+    {
+      "id": "Account",
+      "isDefault": false
+    },
+    {
+      "id": "Cookbook",
+      "isDefault": false
+    },
+    {
+      "id": "Filters",
+      "isDefault": false
+    },
+    {
+      "id": "Leave_Ratings",
+      "isDefault": false
+    },
+    {
+      "id": "Comments",
+      "isDefault": false
+    },
+    {
+      "id": "Direct_Messages",
+      "isDefault": false
+    },
+    {
+      "id": "Make_Account",
+      "isDefault": false
     }
   ],
   "viewMode": false,
@@ -15,6 +51,12 @@
   },
   "color": "#F1DEFF",
   "icon": "burger",
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
+  "publishedAppLayout": {
+    "type": "FLUID"
+  },
   "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
