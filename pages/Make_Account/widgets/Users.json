@@ -61,7 +61,7 @@
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
     "mobileBottomRow": 40,
-    "widgetName": "Table1",
+    "widgetName": "Users",
     "defaultPageSize": 0,
     "columnOrder": [
         "Email",
@@ -80,7 +80,7 @@
     "borderWidth": "1",
     "primaryColumns": {
         "Full_Name": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Full_Name\"]))}}",
+            "computedValue": "{{Users.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Full_Name\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Full_Name",
@@ -111,7 +111,7 @@
             "verticalAlignment": "CENTER"
         },
         "Email": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Email\"]))}}",
+            "computedValue": "{{Users.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Email\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Email",
@@ -142,7 +142,7 @@
             "verticalAlignment": "CENTER"
         },
         "Username": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Username\"]))}}",
+            "computedValue": "{{Users.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Username\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Username",
