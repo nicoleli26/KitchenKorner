@@ -6,6 +6,7 @@
     "topRow": 62,
     "isSortable": true,
     "type": "TABLE_WIDGET_V2",
+    "topRowBeforeCollapse": 62,
     "inlineEditingSaveOption": "ROW_LEVEL",
     "animateLoading": true,
     "dynamicBindingPathList": [
@@ -25,6 +26,7 @@
     "defaultSelectedRowIndex": 0,
     "flexVerticalAlignment": "start",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+    "bottomRowBeforeCollapse": 101,
     "isVisibleFilters": true,
     "isVisible": false,
     "enableClientSideSearch": true,
@@ -60,15 +62,11 @@
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "columnUpdatedAt": 1713395002294,
-    "originalBottomRow": 103,
+    "originalBottomRow": 101,
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
     "mobileBottomRow": 40,
-<<<<<<<< HEAD:pages/Make_Account/widgets/All_Users.json
     "widgetName": "All_Users",
-========
-    "widgetName": "Users",
->>>>>>>> master:pages/Make_Account/widgets/Users.json
     "defaultPageSize": 0,
     "columnOrder": [
         "Email",
@@ -90,11 +88,7 @@
     "borderWidth": "1",
     "primaryColumns": {
         "Full_Name": {
-<<<<<<<< HEAD:pages/Make_Account/widgets/All_Users.json
             "computedValue": "{{All_Users.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Full_Name\"]))}}",
-========
-            "computedValue": "{{Users.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Full_Name\"]))}}",
->>>>>>>> master:pages/Make_Account/widgets/Users.json
             "isEditable": false,
             "notation": "standard",
             "alias": "Full_Name",
@@ -125,11 +119,7 @@
             "verticalAlignment": "CENTER"
         },
         "Email": {
-<<<<<<<< HEAD:pages/Make_Account/widgets/All_Users.json
             "computedValue": "{{All_Users.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Email\"]))}}",
-========
-            "computedValue": "{{Users.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Email\"]))}}",
->>>>>>>> master:pages/Make_Account/widgets/Users.json
             "isEditable": false,
             "notation": "standard",
             "alias": "Email",
@@ -160,11 +150,7 @@
             "verticalAlignment": "CENTER"
         },
         "Username": {
-<<<<<<<< HEAD:pages/Make_Account/widgets/All_Users.json
             "computedValue": "{{All_Users.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Username\"]))}}",
-========
-            "computedValue": "{{Users.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Username\"]))}}",
->>>>>>>> master:pages/Make_Account/widgets/Users.json
             "isEditable": false,
             "notation": "standard",
             "alias": "Username",
@@ -280,7 +266,7 @@
     "horizontalAlignment": "LEFT",
     "isVisibleSearch": true,
     "responsiveBehavior": "fill",
-    "originalTopRow": 64,
+    "originalTopRow": 62,
     "mobileLeftColumn": 0,
     "isVisiblePagination": true,
     "verticalAlignment": "CENTER"
