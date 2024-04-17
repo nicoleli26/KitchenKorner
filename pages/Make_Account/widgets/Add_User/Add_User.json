@@ -8,8 +8,8 @@
     "displayName": "Form",
     "iconSVG": "/static/media/icon.e17c486a34778f3bae299c9110e00cf6.svg",
     "searchTags": ["group"],
-    "topRow": 51,
-    "bottomRow": 90,
+    "topRow": 49,
+    "bottomRow": 88,
     "parentRowSpace": 10,
     "type": "FORM_WIDGET",
     "hideCard": false,
@@ -17,7 +17,7 @@
     "mobileRightColumn": 29,
     "animateLoading": true,
     "parentColumnSpace": 13.015625,
-    "leftColumn": 5,
+    "leftColumn": 4,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "boxShadow"}
@@ -69,7 +69,7 @@
     "key": "r7qeiby2iy",
     "backgroundColor": "#FFFFFF",
     "isDeprecated": false,
-    "rightColumn": 29,
+    "rightColumn": 28,
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "tldxhevnpw",
     "minWidth": 450,
@@ -80,10 +80,10 @@
     "isLoading": false,
     "mobileTopRow": 51,
     "responsiveBehavior": "fill",
-    "originalTopRow": 51,
+    "originalTopRow": 49,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 5,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 91,
+    "originalBottomRow": 88,
     "minDynamicHeight": 10
 }

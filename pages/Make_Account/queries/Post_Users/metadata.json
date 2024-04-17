@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "Api1",
+    "name": "Post_Users",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/users"
+        "url": "web:4000/u/users"
       },
       "invalids": [],
       "messages": [],
@@ -29,9 +29,9 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{{}}",
+      "body": "{{Add_User.data}}",
       "bodyFormData": [],
-      "httpMethod": "PUT",
+      "httpMethod": "POST",
       "httpVersion": "HTTP11",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
@@ -40,7 +40,7 @@
         }
       ],
       "formData": {
-        "apiContentType": "none"
+        "apiContentType": "application/json"
       }
     },
     "executeOnLoad": false,
@@ -53,15 +53,15 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      ""
+      "Add_User.data"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-17T21:58:39Z"
+    "createdAt": "2024-04-17T21:59:51Z"
   },
-  "id": "Make_Account_Api1",
+  "id": "Make_Account_Post_Users",
   "deleted": false,
-  "gitSyncId": "66198b5d6aa18321b71a68f6_6620460f28d855750582d3cd"
+  "gitSyncId": "66198b5d6aa18321b71a68f6_6620465728d855750582d3cf"
 }
