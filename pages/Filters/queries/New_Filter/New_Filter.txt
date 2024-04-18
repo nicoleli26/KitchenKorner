@@ -1,0 +1,59 @@
+{
+  "schema": {
+    "type": "object",
+    "properties": {
+      "mealTypes": {
+        "type": "object",
+        "title": "Meal Types",
+        "properties": {}
+      },
+      "cuisine": {
+        "type": "object",
+        "title": "Cuisine",
+        "properties": {}
+      },
+      "ingredients": {
+        "type": "object",
+        "title": "Ingredients",
+        "properties": {}
+      }
+    }
+  },
+  "layout": [
+    {
+      "type": "container",
+      "children": [
+        {
+          "type": "form",
+          "title": "Filters Form",
+          "schema": {
+            "type": "object",
+            "properties": {
+              "mealTypes": {
+                "type": "object",
+                "title": "Meal Types",
+                "properties": {
+                  // Dynamically generated checkboxes for meal types will go here
+                }
+              },
+              "cuisine": {
+                "type": "object",
+                "title": "Cuisine",
+                "properties": {
+                  // Dynamically generated checkboxes for cuisine will go here
+                }
+              },
+              "ingredients": {
+                "type": "object",
+                "title": "Ingredients",
+                "properties": {
+                  // Dynamically generated checkboxes for ingredients will go here
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
