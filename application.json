@@ -39,13 +39,6 @@
     {
       "id": "Make_Account",
       "isDefault": false
-<<<<<<<<< Temporary merge branch 1
-=========
-    },
-    {
-      "id": "Filter_Recipes",
-      "isDefault": false
->>>>>>>>> Temporary merge branch 2
     }
   ],
   "viewMode": false,
