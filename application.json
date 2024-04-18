@@ -39,6 +39,13 @@
     {
       "id": "Make_Account",
       "isDefault": false
+<<<<<<< HEAD
+=======
+    },
+    {
+      "id": "Filter_Recipes",
+      "isDefault": false
+>>>>>>> master
     }
   ],
   "viewMode": false,
