@@ -39,6 +39,10 @@
     {
       "id": "Make_Account",
       "isDefault": false
+    },
+    {
+      "id": "Feed",
+      "isDefault": false
     }
   ],
   "viewMode": false,
