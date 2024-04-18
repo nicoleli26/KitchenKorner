@@ -1,7 +1,7 @@
 {
     "needsErrorInfo": false,
     "mobileBottomRow": 5,
-    "widgetName": "Text1",
+    "widgetName": "NewMessageName",
     "displayName": "Text",
     "iconSVG": "/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
     "searchTags": [
@@ -27,20 +27,19 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Choose from the options below to filter through recipes:",
-    "key": "23w4vbz5v8",
+    "text": "New message:",
+    "key": "3387jyzuo8",
     "isDeprecated": false,
-    "rightColumn": 64,
-    "backgroundColor": "#be185d",
-    "textAlign": "CENTER",
+    "rightColumn": 40,
+    "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
-    "widgetId": "hj86i3cskv",
+    "widgetId": "girlgej5i4",
     "minWidth": 450,
     "isVisible": true,
     "fontStyle": "BOLD",
     "textColor": "{{appsmith.theme.colors.backgroundColor}}",
     "version": 1,
-    "parentId": "1z6pdbvjer",
+    "parentId": "h8tlt814dh",
     "tags": [
         "Suggested",
         "Content"
@@ -53,7 +52,7 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 1.5,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 9,
-    "fontSize": "1rem",
+    "originalBottomRow": 7,
+    "fontSize": "1.25rem",
     "minDynamicHeight": 4
 }
