@@ -29,7 +29,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "{{appsmith.user.name || appsmith.user.email}}",
+    "text": "{{appsmith.user.name || appsmith.user.email ||\nappsmith.user.user_id}}",
     "key": "yo4imgphms",
     "isDeprecated": false,
     "rightColumn": 17,
