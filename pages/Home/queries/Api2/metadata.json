@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Filters",
+    "pageId": "Home",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -50,7 +50,7 @@
     "userPermissions": [],
     "createdAt": "2024-04-15T22:31:24Z"
   },
-  "id": "Filters_Api2",
+  "id": "Home_Api2",
   "deleted": false,
   "gitSyncId": "661991abea788e07d112fea4_661daabc8f092532aceedf80"
 }

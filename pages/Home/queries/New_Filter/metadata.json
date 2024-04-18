@@ -13,7 +13,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Filters",
+    "pageId": "Home",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -52,7 +52,7 @@
     "userPermissions": [],
     "createdAt": "2024-04-18T19:37:55Z"
   },
-  "id": "Filters_New_Filter",
+  "id": "Home_New_Filter",
   "deleted": false,
   "gitSyncId": "661991abea788e07d112fea4_6621769395e7ab56b4878b2d"
 }

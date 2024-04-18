@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "Ingredient_Names",
+    "name": "Cuisines",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/i/ingredient_names"
+        "url": "web:4000/r/cuisines"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Filters",
+    "pageId": "Home",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -38,7 +38,7 @@
         "apiContentType": "none"
       }
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
@@ -48,9 +48,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-15T22:22:18Z"
+    "createdAt": "2024-04-18T20:35:15Z"
   },
-  "id": "Filters_Ingredient_Names",
+  "id": "Home_Cuisines",
   "deleted": false,
-  "gitSyncId": "661991abea788e07d112fea4_661da89aea788e07d112feb4"
+  "gitSyncId": "661991abea788e07d112fea4_66218403422e9e079f216654"
 }
