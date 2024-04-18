@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Feed",
+    "pageId": "Home",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -48,9 +48,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-18T20:46:35Z"
+    "createdAt": "2024-04-18T22:26:18Z"
   },
-  "id": "Feed_Get_Feed",
+  "id": "Home_Get_Feed",
   "deleted": false,
-  "gitSyncId": "662186660b88f772c2b06ae3_662186ab0b88f772c2b06b05"
+  "gitSyncId": "662186660b88f772c2b06ae3_66219e0a0b88f772c2b06b0a"
 }
