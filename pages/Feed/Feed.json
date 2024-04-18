@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Search",
-    "slug": "search",
+    "name": "Feed",
+    "slug": "feed",
     "layouts": [
       {
         "viewMode": false,
@@ -13,22 +13,33 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 670,
+          "bottomRow": 1470,
           "containerStyle": "none",
-          "snapRows": 66,
+          "snapRows": 70,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 89,
-          "minHeight": 680,
+          "minHeight": 720,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
-        "layoutOnLoadActions": [],
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Feed_Get_Feed",
+              "name": "Get_Feed",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Search",
+        "id": "Feed",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -39,5 +50,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "66198b5d6aa18321b71a68f6_6620435228d855750582d3b6"
+  "gitSyncId": "662186660b88f772c2b06ae3_662186730b88f772c2b06b03"
 }
