@@ -1,7 +1,8 @@
 {
     "needsErrorInfo": false,
-    "mobileBottomRow": 6,
-    "widgetName": "Name",
+    "boxShadow": "none",
+    "mobileBottomRow": 8,
+    "widgetName": "Text3",
     "displayName": "Text",
     "iconSVG": "/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
     "searchTags": [
@@ -9,50 +10,58 @@
         "paragraph",
         "label"
     ],
-    "topRow": 7,
-    "bottomRow": 11,
-    "parentRowSpace": 10,
+    "topRow": 4,
+    "bottomRow": 8,
     "type": "TEXT_WIDGET",
     "hideCard": false,
-    "mobileRightColumn": 17,
+    "mobileRightColumn": 24,
     "animateLoading": true,
     "overflow": "NONE",
-    "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-    "parentColumnSpace": 11.890625,
     "dynamicTriggerPathList": [],
-    "leftColumn": 1,
+    "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "dynamicBindingPathList": [
+        {"key": "text"},
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
         {"key": "borderRadius"},
         {"key": "text"}
     ],
+<<<<<<<< HEAD:pages/Direct_Messages/widgets/All_Messages/Container1/Text1.json
+    "leftColumn": 1,
+========
+    "leftColumn": 52,
+>>>>>>>> master:pages/Feed/widgets/List1/Container1/Text3.json
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "{{appsmith.user.name || appsmith.user.email ||\nappsmith.user.user_id}}",
-    "key": "yo4imgphms",
+    "text": "{{currentItem.id}}",
+    "key": "ddezwyuyd3",
     "isDeprecated": false,
-    "rightColumn": 17,
+<<<<<<<< HEAD:pages/Direct_Messages/widgets/All_Messages/Container1/Text1.json
+    "rightColumn": 13,
+========
+    "rightColumn": 60,
+>>>>>>>> master:pages/Feed/widgets/List1/Container1/Text3.json
     "textAlign": "LEFT",
-    "dynamicHeight": "AUTO_HEIGHT",
-    "widgetId": "hklw6yogku",
+    "dynamicHeight": "FIXED",
+    "widgetId": "er6cytlgo1",
     "minWidth": 450,
     "isVisible": true,
     "fontStyle": "BOLD",
     "textColor": "#231F20",
     "version": 1,
-    "parentId": "0",
+    "parentId": "our4p4024i",
     "tags": [
         "Suggested",
         "Content"
     ],
     "renderMode": "CANVAS",
     "isLoading": false,
-    "mobileTopRow": 2,
+    "mobileTopRow": 4,
     "responsiveBehavior": "fill",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 1,
+    "mobileLeftColumn": 16,
     "maxDynamicHeight": 9000,
     "fontSize": "1rem",
+    "textStyle": "BODY",
     "minDynamicHeight": 4
 }
