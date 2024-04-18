@@ -32,7 +32,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "{{appsmith.user.name}} Messages",
+    "text": "{{appsmith.user.name}}'s' Messages",
     "key": "3387jyzuo8",
     "isDeprecated": false,
     "rightColumn": 64,
