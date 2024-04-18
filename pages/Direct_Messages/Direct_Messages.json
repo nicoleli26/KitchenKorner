@@ -13,7 +13,11 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
+<<<<<<< HEAD
+          "bottomRow": 620,
+=======
           "bottomRow": 670,
+>>>>>>> master
           "containerStyle": "none",
           "snapRows": 66,
           "parentRowSpace": 1,

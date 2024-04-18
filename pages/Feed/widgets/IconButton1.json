@@ -1,8 +1,14 @@
 {
     "needsErrorInfo": false,
     "boxShadow": "none",
+<<<<<<< HEAD:pages/Direct_Messages/widgets/New_Message.json
+    "mobileBottomRow": 10,
+    "widgetName": "New_Message",
+    "onClick": "{{showModal('ModalNewMessage');}}",
+=======
     "mobileBottomRow": 5,
     "widgetName": "IconButton1",
+>>>>>>> master:pages/Feed/widgets/IconButton1.json
     "buttonColor": "#be185d",
     "displayName": "Icon button",
     "iconSVG": "/static/media/icon.b08054586989b185a0801e9a34f8ad49.svg",
@@ -17,9 +23,15 @@
     "hideCard": false,
     "mobileRightColumn": 64,
     "animateLoading": true,
+<<<<<<< HEAD:pages/Direct_Messages/widgets/New_Message.json
+    "parentColumnSpace": 11.890625,
+    "dynamicTriggerPathList": [{"key": "onClick"}],
+    "leftColumn": 57,
+=======
     "parentColumnSpace": 12.953125,
     "dynamicTriggerPathList": [],
     "leftColumn": 60,
+>>>>>>> master:pages/Feed/widgets/IconButton1.json
     "dynamicBindingPathList": [{"key": "borderRadius"}],
     "isDisabled": false,
     "key": "rthz8hwmuv",
