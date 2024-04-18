@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Direct_Messages",
-    "slug": "direct-messages",
+    "name": "Filter_Recipes",
+    "slug": "filter-recipes",
     "layouts": [
       {
         "viewMode": false,
@@ -13,18 +13,14 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-<<<<<<< HEAD
-          "bottomRow": 620,
-=======
-          "bottomRow": 670,
->>>>>>> master
+          "bottomRow": 530,
           "containerStyle": "none",
-          "snapRows": 66,
+          "snapRows": 70,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 89,
-          "minHeight": 680,
+          "minHeight": 720,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
@@ -32,7 +28,7 @@
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Direct_Messages",
+        "id": "Filter_Recipes",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -43,5 +39,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "66198b5d6aa18321b71a68f6_662043c128d855750582d3c8"
+  "gitSyncId": "661991abea788e07d112fea4_66218f98422e9e079f2166a1"
 }
