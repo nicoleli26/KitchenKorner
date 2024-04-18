@@ -1,7 +1,7 @@
 {
     "needsErrorInfo": false,
     "mobileBottomRow": 5,
-    "widgetName": "Text1",
+    "widgetName": "NewMessageName",
     "displayName": "Text",
     "iconSVG": "/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
     "searchTags": [
@@ -22,23 +22,24 @@
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
-        {"key": "borderRadius"}
+        {"key": "borderRadius"},
+        {"key": "textColor"}
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Please fill out the form below to begin creating your account:",
-    "key": "hvgqjecvei",
+    "text": "New message:",
+    "key": "3387jyzuo8",
     "isDeprecated": false,
-    "rightColumn": 57,
+    "rightColumn": 44,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
-    "widgetId": "k2x0s8icsu",
+    "widgetId": "girlgej5i4",
     "minWidth": 450,
     "isVisible": true,
     "fontStyle": "BOLD",
-    "textColor": "#f4f4f5",
+    "textColor": "{{appsmith.theme.colors.backgroundColor}}",
     "version": 1,
-    "parentId": "9ji2cztnig",
+    "parentId": "h8tlt814dh",
     "tags": [
         "Suggested",
         "Content"

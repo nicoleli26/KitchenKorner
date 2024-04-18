@@ -2,13 +2,13 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "Put_Users",
+    "name": "Send_Message",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
         "sshProxyEnabled": false,
-        "url": "web:4000/users"
+        "url": "web:4000/d/direct_messages"
       },
       "invalids": [],
       "messages": [],
@@ -17,7 +17,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Make_Account",
+    "pageId": "Direct_Messages",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -30,9 +30,9 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{{}}",
+      "body": "{{NewMessage.data}}",
       "bodyFormData": [],
-      "httpMethod": "PUT",
+      "httpMethod": "POST",
       "httpVersion": "HTTP11",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
@@ -41,7 +41,7 @@
         }
       ],
       "formData": {
-        "apiContentType": "none"
+        "apiContentType": "application/json"
       }
     },
     "executeOnLoad": false,
@@ -54,15 +54,15 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      ""
+      "NewMessage.data"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-17T21:58:39Z"
+    "createdAt": "2024-04-18T19:23:06Z"
   },
-  "id": "Make_Account_Put_Users",
+  "id": "Direct_Messages_Send_Message",
   "deleted": false,
-  "gitSyncId": "66198b5d6aa18321b71a68f6_6620460f28d855750582d3cd"
+  "gitSyncId": "662048915e50b608b3f2e675_6621731a5e50b608b3f2e72e"
 }

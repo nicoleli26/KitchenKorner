@@ -3,9 +3,10 @@
     "borderColor": "#E0DEDE",
     "isVisibleDownload": true,
     "iconSVG": "/static/media/icon.e6911f8bb94dc6c4a102a74740c41763.svg",
-    "topRow": 12,
+    "topRow": 62,
     "isSortable": true,
     "type": "TABLE_WIDGET_V2",
+    "topRowBeforeCollapse": 62,
     "inlineEditingSaveOption": "ROW_LEVEL",
     "animateLoading": true,
     "dynamicBindingPathList": [
@@ -20,13 +21,14 @@
         {"key": "primaryColumns.User_ID.computedValue"}
     ],
     "needsHeightForContent": true,
-    "leftColumn": 0,
+    "leftColumn": 4,
     "delimiter": ",",
     "defaultSelectedRowIndex": 0,
     "flexVerticalAlignment": "start",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+    "bottomRowBeforeCollapse": 101,
     "isVisibleFilters": true,
-    "isVisible": true,
+    "isVisible": false,
     "enableClientSideSearch": true,
     "version": 2,
     "totalRecordsCount": 0,
@@ -59,11 +61,16 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+<<<<<<< HEAD:pages/Make_Account/widgets/Users.json
     "columnUpdatedAt": 1713398181003,
+=======
+    "columnUpdatedAt": 1713395002294,
+    "originalBottomRow": 101,
+>>>>>>> master:pages/Make_Account/widgets/All_Users.json
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
     "mobileBottomRow": 40,
-    "widgetName": "Users",
+    "widgetName": "All_Users",
     "defaultPageSize": 0,
     "columnOrder": [
         "Email",
@@ -73,8 +80,9 @@
         "User_ID"
     ],
     "dynamicPropertyPathList": [{"key": "tableData"}],
+    "compactMode": "SHORT",
     "displayName": "Table",
-    "bottomRow": 40,
+    "bottomRow": 101,
     "columnWidthMap": {},
     "parentRowSpace": 10,
     "hideCard": false,
@@ -84,7 +92,7 @@
     "borderWidth": "1",
     "primaryColumns": {
         "Full_Name": {
-            "computedValue": "{{Users.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Full_Name\"]))}}",
+            "computedValue": "{{All_Users.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Full_Name\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Full_Name",
@@ -115,7 +123,7 @@
             "verticalAlignment": "CENTER"
         },
         "Email": {
-            "computedValue": "{{Users.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Email\"]))}}",
+            "computedValue": "{{All_Users.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Email\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Email",
@@ -146,7 +154,7 @@
             "verticalAlignment": "CENTER"
         },
         "Username": {
-            "computedValue": "{{Users.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Username\"]))}}",
+            "computedValue": "{{All_Users.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Username\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Username",
@@ -177,7 +185,11 @@
             "verticalAlignment": "CENTER"
         },
         "User_ID": {
+<<<<<<< HEAD:pages/Make_Account/widgets/Users.json
             "computedValue": "{{Users.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"User_ID\"]))}}",
+=======
+            "computedValue": "{{All_Users.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"User_ID\"]))}}",
+>>>>>>> master:pages/Make_Account/widgets/All_Users.json
             "isEditable": false,
             "notation": "standard",
             "alias": "User_ID",
@@ -211,7 +223,11 @@
             "verticalAlignment": "CENTER"
         },
         "Created_At": {
+<<<<<<< HEAD:pages/Make_Account/widgets/Users.json
             "computedValue": "{{Users.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Created_At\"]))}}",
+=======
+            "computedValue": "{{All_Users.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Created_At\"]))}}",
+>>>>>>> master:pages/Make_Account/widgets/All_Users.json
             "isEditable": false,
             "notation": "standard",
             "alias": "Created_At",
@@ -251,6 +267,7 @@
     "rightColumn": 33,
     "textSize": "0.875rem",
     "widgetId": "g1d9waaxa2",
+    "allowAddNewRow": true,
     "minWidth": 450,
     "tableData": "{{Get_Users.data}}",
     "label": "Data",
@@ -261,6 +278,7 @@
     "horizontalAlignment": "LEFT",
     "isVisibleSearch": true,
     "responsiveBehavior": "fill",
+    "originalTopRow": 62,
     "mobileLeftColumn": 0,
     "isVisiblePagination": true,
     "verticalAlignment": "CENTER"
