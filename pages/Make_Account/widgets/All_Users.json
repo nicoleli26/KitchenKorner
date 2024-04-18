@@ -61,8 +61,12 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+<<<<<<< HEAD:pages/Make_Account/widgets/Users.json
+    "columnUpdatedAt": 1713398181003,
+=======
     "columnUpdatedAt": 1713395002294,
     "originalBottomRow": 101,
+>>>>>>> master:pages/Make_Account/widgets/All_Users.json
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
     "mobileBottomRow": 40,
@@ -181,7 +185,11 @@
             "verticalAlignment": "CENTER"
         },
         "User_ID": {
+<<<<<<< HEAD:pages/Make_Account/widgets/Users.json
+            "computedValue": "{{Users.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"User_ID\"]))}}",
+=======
             "computedValue": "{{All_Users.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"User_ID\"]))}}",
+>>>>>>> master:pages/Make_Account/widgets/All_Users.json
             "isEditable": false,
             "notation": "standard",
             "alias": "User_ID",
@@ -215,7 +223,11 @@
             "verticalAlignment": "CENTER"
         },
         "Created_At": {
+<<<<<<< HEAD:pages/Make_Account/widgets/Users.json
+            "computedValue": "{{Users.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Created_At\"]))}}",
+=======
             "computedValue": "{{All_Users.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Created_At\"]))}}",
+>>>>>>> master:pages/Make_Account/widgets/All_Users.json
             "isEditable": false,
             "notation": "standard",
             "alias": "Created_At",
