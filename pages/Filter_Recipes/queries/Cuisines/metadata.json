@@ -2,20 +2,13 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-<<<<<<<< HEAD:pages/Direct_Messages/queries/Get_User_ID/metadata.json
-    "name": "Get_User_ID",
-========
-    "name": "Get_Feed",
->>>>>>>> master:pages/Feed/queries/Get_Feed/metadata.json
+    "name": "Cuisines",
+    "fullyQualifiedName": "Cuisines",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-<<<<<<<< HEAD:pages/Direct_Messages/queries/Get_User_ID/metadata.json
-        "url": "web:4000/d/direct_messages/receiver_id"
-========
-        "url": "web:4000/f/feeds/10"
->>>>>>>> master:pages/Feed/queries/Get_Feed/metadata.json
+        "url": "web:4000/r/cuisines"
       },
       "invalids": [],
       "messages": [],
@@ -24,7 +17,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Feed",
+    "pageId": "Filter_Recipes",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -46,11 +39,7 @@
         "apiContentType": "none"
       }
     },
-<<<<<<<< HEAD:pages/Direct_Messages/queries/Get_User_ID/metadata.json
-    "executeOnLoad": false,
-========
     "executeOnLoad": true,
->>>>>>>> master:pages/Feed/queries/Get_Feed/metadata.json
     "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
@@ -60,13 +49,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-18T20:46:35Z"
+    "createdAt": "2024-04-18T21:24:48Z"
   },
-<<<<<<<< HEAD:pages/Direct_Messages/queries/Get_User_ID/metadata.json
-  "id": "Direct_Messages_Get_User_ID",
-========
-  "id": "Feed_Get_Feed",
->>>>>>>> master:pages/Feed/queries/Get_Feed/metadata.json
+  "id": "Filter_Recipes_Cuisines",
   "deleted": false,
-  "gitSyncId": "662186660b88f772c2b06ae3_662186ab0b88f772c2b06b05"
+  "gitSyncId": "661991abea788e07d112fea4_66218fa0422e9e079f2166aa"
 }

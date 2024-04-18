@@ -1,27 +1,26 @@
 {
   "unpublishedPage": {
-    "name": "Home",
-    "slug": "home",
+    "name": "Filter_Recipes",
+    "slug": "filter-recipes",
     "layouts": [
       {
         "viewMode": false,
         "dsl": {
           "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 4896,
+          "rightColumn": 1224,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 760,
+          "bottomRow": 420,
           "containerStyle": "none",
-          "snapRows": 124,
+          "snapRows": 70,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 89,
-          "minHeight": 1292,
-          "dynamicTriggerPathList": [],
+          "minHeight": 720,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
@@ -29,8 +28,16 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Home_Get_Feed",
-              "name": "Get_Feed",
+              "id": "Filter_Recipes_Cuisines",
+              "name": "Cuisines",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Filter_Recipes_Ingredient_Names",
+              "name": "Ingredient_Names",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
@@ -40,7 +47,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Home",
+        "id": "Filter_Recipes",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -51,5 +58,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "66198ae66aa18321b71a68ef_66198ae66aa18321b71a68f1"
+  "gitSyncId": "661991abea788e07d112fea4_66218f98422e9e079f2166a1"
 }
