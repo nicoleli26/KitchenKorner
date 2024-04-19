@@ -10,13 +10,14 @@
         "click",
         "submit"
     ],
-    "topRow": 72,
-    "bottomRow": 76,
+    "topRow": 73,
+    "bottomRow": 79,
     "parentRowSpace": 10,
     "type": "BUTTON_GROUP_WIDGET",
     "groupButtons": {
         "groupButtonbr7dts7ysp": {
             "itemType": "BUTTON",
+            "onClick": "{{navigateTo('Account', {}, 'SAME_WINDOW');}}",
             "buttonColor": "#be185d",
             "iconName": "person",
             "widgetId": "kw2jr5jk6h",
@@ -32,6 +33,7 @@
         },
         "groupButton7jgf0vc0ks": {
             "itemType": "BUTTON",
+            "onClick": "{{navigateTo('Home', {}, 'SAME_WINDOW');}}",
             "buttonColor": "#be185d",
             "iconName": "home",
             "widgetId": "lpuge2atge",
@@ -47,6 +49,7 @@
         },
         "groupButton91wo1gqixy": {
             "itemType": "BUTTON",
+            "onClick": "{{navigateTo('Make_Post', {}, 'SAME_WINDOW');}}",
             "buttonColor": "#be185d",
             "iconName": "plus",
             "widgetId": "3p788q8w5n",
@@ -54,14 +57,15 @@
             "index": 1,
             "label": "",
             "isVisible": true,
-            "buttonType": "MENU",
+            "buttonType": "SIMPLE",
             "buttonVariant": "filled",
             "id": "groupButton91wo1gqixy",
             "isDisabled": false,
             "placement": "CENTER"
         },
         "groupButton3": {
-            "buttonType": "MENU",
+            "onClick": "{{navigateTo('Search', {}, 'SAME_WINDOW');}}",
+            "buttonType": "SIMPLE",
             "iconName": "search",
             "buttonColor": "#be185d",
             "widgetId": "",
@@ -109,20 +113,22 @@
             "isDisabled": false
         },
         "groupButton1": {
-            "buttonType": "MENU",
+            "onClick": "{{navigateTo('Cookbook', {}, 'SAME_WINDOW');}}",
             "iconName": "heart",
             "buttonColor": "#be185d",
             "widgetId": "",
             "menuItems": {},
             "index": 3,
-            "iconAlign": "left",
             "label": "",
+            "isVisible": true,
+            "buttonType": "SIMPLE",
+            "iconAlign": "left",
             "id": "groupButton1",
             "placement": "CENTER",
-            "isVisible": true,
             "isDisabled": false
         },
         "groupButton2": {
+            "onClick": "{{navigateTo('Filters', {}, 'SAME_WINDOW');}}",
             "buttonType": "SIMPLE",
             "iconName": "settings",
             "buttonColor": "#be185d",
@@ -140,8 +146,15 @@
     "mobileRightColumn": 43,
     "animateLoading": true,
     "parentColumnSpace": 12.3125,
-    "dynamicTriggerPathList": [],
-    "leftColumn": 0,
+    "dynamicTriggerPathList": [
+        {"key": "groupButtons.groupButton7jgf0vc0ks.onClick"},
+        {"key": "groupButtons.groupButtonbr7dts7ysp.onClick"},
+        {"key": "groupButtons.groupButton3.onClick"},
+        {"key": "groupButtons.groupButton2.onClick"},
+        {"key": "groupButtons.groupButton1.onClick"},
+        {"key": "groupButtons.groupButton91wo1gqixy.onClick"}
+    ],
+    "leftColumn": 1,
     "dynamicBindingPathList": [{"key": "borderRadius"}],
     "key": "rkowp3dkgo",
     "orientation": "horizontal",
@@ -158,7 +171,9 @@
     "mobileTopRow": 51,
     "responsiveBehavior": "fill",
     "childStylesheet": {"button": {"buttonColor": "{{appsmith.theme.colors.primaryColor}}"}},
+    "originalTopRow": 73,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 19,
+    "originalBottomRow": 79,
     "buttonVariant": "PRIMARY"
 }
