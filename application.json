@@ -1,0 +1,71 @@
+{
+  "pages": [
+    {
+      "id": "Cookbook",
+      "isDefault": false
+    },
+    {
+      "id": "Account",
+      "isDefault": false
+    },
+    {
+      "id": "Home",
+      "isDefault": true
+    },
+    {
+      "id": "Make_Post",
+      "isDefault": false
+    },
+    {
+      "id": "Search",
+      "isDefault": false
+    },
+    {
+      "id": "Filters",
+      "isDefault": false
+    },
+    {
+      "id": "Ratings_Comments",
+      "isDefault": false
+    },
+    {
+      "id": "Direct_Messages",
+      "isDefault": false
+    },
+    {
+      "id": "Make_Account",
+      "isDefault": false
+    },
+    {
+      "id": "Recipe",
+      "isDefault": false
+    }
+  ],
+  "viewMode": false,
+  "appIsExample": false,
+  "unreadCommentThreads": 0,
+  "unpublishedApplicationDetail": {
+    "appPositioning": {
+      "type": "FIXED"
+    }
+  },
+  "color": "#F1DEFF",
+  "icon": "burger",
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
+  "publishedAppLayout": {
+    "type": "FLUID"
+  },
+  "unpublishedCustomJSLibs": [
+    {
+      "uidString": "xmlParser_https://cdnjs.cloudflare.com/ajax/libs/fast-xml-parser/3.17.5/parser.min.js"
+    }
+  ],
+  "publishedCustomJSLibs": [],
+  "evaluationVersion": 2,
+  "applicationVersion": 2,
+  "collapseInvisibleWidgets": true,
+  "isManualUpdate": false,
+  "deleted": false
+}
