@@ -1,6 +1,14 @@
 {
   "pages": [
     {
+      "id": "Cookbook",
+      "isDefault": false
+    },
+    {
+      "id": "Account",
+      "isDefault": false
+    },
+    {
       "id": "Home",
       "isDefault": true
     },
@@ -13,23 +21,11 @@
       "isDefault": false
     },
     {
-      "id": "Account",
-      "isDefault": false
-    },
-    {
-      "id": "Cookbook",
-      "isDefault": false
-    },
-    {
       "id": "Filters",
       "isDefault": false
     },
     {
-      "id": "Leave_Ratings",
-      "isDefault": false
-    },
-    {
-      "id": "Comments",
+      "id": "Ratings_Comments",
       "isDefault": false
     },
     {
@@ -38,6 +34,10 @@
     },
     {
       "id": "Make_Account",
+      "isDefault": false
+    },
+    {
+      "id": "Recipe",
       "isDefault": false
     }
   ],
@@ -57,7 +57,11 @@
   "publishedAppLayout": {
     "type": "FLUID"
   },
-  "unpublishedCustomJSLibs": [],
+  "unpublishedCustomJSLibs": [
+    {
+      "uidString": "xmlParser_https://cdnjs.cloudflare.com/ajax/libs/fast-xml-parser/3.17.5/parser.min.js"
+    }
+  ],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
   "applicationVersion": 2,

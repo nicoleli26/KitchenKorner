@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "functions",
+    "pageId": "Cookbook",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Cookbook_functions",
+  "deleted": false,
+  "gitSyncId": "662048915e50b608b3f2e675_6621d11c63f01d28f2935e99"
+}
