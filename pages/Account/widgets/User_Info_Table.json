@@ -14,11 +14,11 @@
         {"key": "borderRadius"},
         {"key": "boxShadow"},
         {"key": "primaryColumns.User_ID.computedValue"},
-        {"key": "tableData"},
         {"key": "primaryColumns.Created_At.computedValue"},
         {"key": "primaryColumns.Email.computedValue"},
         {"key": "primaryColumns.Full_Name.computedValue"},
-        {"key": "primaryColumns.Username.computedValue"}
+        {"key": "primaryColumns.Username.computedValue"},
+        {"key": "tableData"}
     ],
     "needsHeightForContent": true,
     "leftColumn": 1,
@@ -253,7 +253,7 @@
     "widgetId": "7uds7enj6e",
     "allowAddNewRow": false,
     "minWidth": 450,
-    "tableData": "{{Get_User_Info.data}}",
+    "tableData": "{{Get_User_ID.data}}",
     "label": "Data",
     "searchKey": "",
     "parentId": "0",
