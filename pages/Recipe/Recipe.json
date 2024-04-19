@@ -1,46 +1,34 @@
 {
   "unpublishedPage": {
-    "name": "Home",
-    "slug": "home",
+    "name": "Recipe",
+    "slug": "recipe",
     "layouts": [
       {
         "viewMode": false,
         "dsl": {
           "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 4896,
+          "rightColumn": 1224,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1200,
+          "bottomRow": 630,
           "containerStyle": "none",
-          "snapRows": 124,
+          "snapRows": 61,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 89,
-          "minHeight": 1292,
-          "dynamicTriggerPathList": [],
+          "minHeight": 630,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "Home_Get_Feed",
-              "name": "Get_Feed",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
+        "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Home",
+        "id": "Recipe",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -51,5 +39,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "66198ae66aa18321b71a68ef_66198ae66aa18321b71a68f1"
+  "gitSyncId": "662048915e50b608b3f2e675_6621f73163f01d28f2935f23"
 }
