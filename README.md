@@ -10,6 +10,10 @@ This app is built using Appsmith. Turn any datasource into an internal app in mi
 
 ###### [![](https://assets.appsmith.com/git-sync/Buttons.svg) ](http://localhost:8080/applications/66198ae66aa18321b71a68ef/pages/66198ae66aa18321b71a68f2) [![](https://assets.appsmith.com/git-sync/Buttons2.svg)](http://localhost:8080/applications/66198ae66aa18321b71a68ef/pages/66198ae66aa18321b71a68f2/edit)
 
+## Steps
+1. Go to "localhost:8080" in your browser.
+2. Log in and enjoy!
+
 ## KitchenKorner
 The simple all in one social media app for all things cooking! Post your favorite recipes and find the perfect new recipe in the feed. Directly send recipes to your friends and save your favorite new recipes in your personal cookbook. KitchenKorner has everything you need and more! Install today!
 
