@@ -28,8 +28,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Account_Get_User_Info",
-              "name": "Get_User_Info",
+              "id": "Account_Get_User_ID",
+              "name": "Get_User_ID",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
