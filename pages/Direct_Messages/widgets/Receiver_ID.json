@@ -11,8 +11,7 @@
     "leftColumn": 2,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
-        {"key": "borderRadius"},
-        {"key": "sourceData"}
+        {"key": "borderRadius"}
     ],
     "placeholderText": "Select option",
     "isDisabled": false,
@@ -27,7 +26,7 @@
     ],
     "isLoading": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 21,
+    "originalBottomRow": 22,
     "needsErrorInfo": false,
     "mobileBottomRow": 18,
     "widgetName": "Receiver_ID",
@@ -43,7 +42,7 @@
     "dynamicTriggerPathList": [{"key": "onOptionChange"}],
     "labelPosition": "Top",
     "labelTextColor": "#be185d",
-    "sourceData": "{{Get_Users.data}}",
+    "sourceData": "",
     "key": "za8qlaos8t",
     "labelTextSize": "1.25rem",
     "isDeprecated": false,
@@ -57,7 +56,7 @@
     "mobileTopRow": 11,
     "optionLabel": "Username",
     "responsiveBehavior": "fill",
-    "originalTopRow": 13,
+    "originalTopRow": 14,
     "mobileLeftColumn": 2,
     "maxDynamicHeight": 9000,
     "onOptionChange": "{{Get_Messages.run(Receiver_ID.selectedOptionValue);}}",
