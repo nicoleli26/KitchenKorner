@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 630,
+          "bottomRow": 690,
           "containerStyle": "none",
           "snapRows": 128,
           "parentRowSpace": 1,
@@ -28,10 +28,10 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Account_getUsers",
-              "name": "getUsers",
+              "id": "Account_Get_Users",
+              "name": "Get_Users",
               "confirmBeforeExecute": false,
-              "pluginType": "DB",
+              "pluginType": "API",
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             }
