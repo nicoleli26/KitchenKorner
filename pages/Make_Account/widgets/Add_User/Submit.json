@@ -5,7 +5,7 @@
     "mobileBottomRow": 37,
     "widgetName": "Submit",
     "onClick": "{{navigateTo('Account', {}, 'SAME_WINDOW');}}",
-    "buttonColor": "#f4f4f5",
+    "buttonColor": "#be185d",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
     "searchTags": [
