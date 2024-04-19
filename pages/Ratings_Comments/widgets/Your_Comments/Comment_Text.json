@@ -29,7 +29,7 @@
     "text": "Leave your comments here:",
     "key": "w25wbd0seb",
     "isDeprecated": false,
-    "rightColumn": 24,
+    "rightColumn": 25,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "gmsi3d0fyx",
@@ -47,9 +47,11 @@
     "isLoading": false,
     "mobileTopRow": 1,
     "responsiveBehavior": "fill",
+    "originalTopRow": 1,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 1.5,
     "maxDynamicHeight": 9000,
+    "originalBottomRow": 7,
     "fontSize": "1.25rem",
     "minDynamicHeight": 4
 }

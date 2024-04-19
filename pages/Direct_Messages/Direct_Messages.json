@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 930,
+          "bottomRow": 940,
           "containerStyle": "none",
           "snapRows": 66,
           "parentRowSpace": 1,
@@ -32,15 +32,9 @@
               "name": "Get_Messages",
               "confirmBeforeExecute": false,
               "pluginType": "API",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Direct_Messages_Get_Users",
-              "name": "Get_Users",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [],
+              "jsonPathKeys": [
+                "Receiver_ID.selectedOptionValue"
+              ],
               "timeoutInMillisecond": 10000
             }
           ]
