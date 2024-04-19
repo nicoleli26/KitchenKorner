@@ -25,11 +25,7 @@
       "isDefault": false
     },
     {
-      "id": "Leave_Ratings",
-      "isDefault": false
-    },
-    {
-      "id": "Comments",
+      "id": "Ratings_Comments",
       "isDefault": false
     },
     {
@@ -38,6 +34,10 @@
     },
     {
       "id": "Make_Account",
+      "isDefault": false
+    },
+    {
+      "id": "Recipe",
       "isDefault": false
     }
   ],
