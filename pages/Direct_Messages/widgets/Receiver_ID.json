@@ -11,7 +11,8 @@
     "leftColumn": 2,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
-        {"key": "borderRadius"}
+        {"key": "borderRadius"},
+        {"key": "sourceData"}
     ],
     "placeholderText": "Select option",
     "isDisabled": false,
@@ -42,7 +43,7 @@
     "dynamicTriggerPathList": [{"key": "onOptionChange"}],
     "labelPosition": "Top",
     "labelTextColor": "#be185d",
-    "sourceData": "",
+    "sourceData": "{{Get_Users.data}}",
     "key": "za8qlaos8t",
     "labelTextSize": "1.25rem",
     "isDeprecated": false,
