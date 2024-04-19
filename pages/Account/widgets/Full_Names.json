@@ -32,7 +32,7 @@
     "text": "Full Name: {{User_Info_Table.selectedRow.Full_Name}}",
     "key": "4fg4xtwlve",
     "isDeprecated": false,
-    "rightColumn": 25,
+    "rightColumn": 28,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "sq1jcmvgfc",
@@ -50,11 +50,11 @@
     "isLoading": false,
     "mobileTopRow": 6,
     "responsiveBehavior": "fill",
-    "originalTopRow": 8,
+    "originalTopRow": 4,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 1,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 14,
+    "originalBottomRow": 10,
     "fontSize": "1.25rem",
     "minDynamicHeight": 4
 }

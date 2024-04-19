@@ -28,6 +28,16 @@
         "layoutOnLoadActions": [
           [
             {
+              "id": "Direct_Messages_Get_Users",
+              "name": "Get_Users",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
               "id": "Direct_Messages_Get_Messages",
               "name": "Get_Messages",
               "confirmBeforeExecute": false,
