@@ -39,10 +39,6 @@
     {
       "id": "Make_Account",
       "isDefault": false
-    },
-    {
-      "id": "Filter_Recipes",
-      "isDefault": false
     }
   ],
   "viewMode": false,

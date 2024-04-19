@@ -34,13 +34,13 @@
     "backgroundColor": "#be185d",
     "textAlign": "CENTER",
     "dynamicHeight": "AUTO_HEIGHT",
-    "widgetId": "hj86i3cskv",
+    "widgetId": "jh1jj4dwlh",
     "minWidth": 450,
     "isVisible": true,
     "fontStyle": "BOLD",
     "textColor": "{{appsmith.theme.colors.backgroundColor}}",
     "version": 1,
-    "parentId": "1z6pdbvjer",
+    "parentId": "cpprcuk99l",
     "tags": [
         "Suggested",
         "Content"
