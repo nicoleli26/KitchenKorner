@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "All_D_Messages",
+    "name": "Ingredient_Names",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/d/direct_messages/sender_id"
+        "url": "web:4000/i/ingredient_names"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Direct_Messages",
+    "pageId": "Filters",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -38,7 +38,7 @@
         "apiContentType": "none"
       }
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
@@ -48,9 +48,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-18T21:27:35Z"
+    "createdAt": "2024-04-19T01:15:15Z"
   },
-  "id": "Direct_Messages_All_D_Messages",
+  "id": "Filters_Ingredient_Names",
   "deleted": false,
-  "gitSyncId": "662048915e50b608b3f2e675_6621904763f01d28f2935df5"
+  "gitSyncId": "661991abea788e07d112fea4_6621c5a3422e9e079f2166ee"
 }
