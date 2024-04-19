@@ -11,7 +11,8 @@
     "leftColumn": 1,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
-        {"key": "borderRadius"}
+        {"key": "borderRadius"},
+        {"key": "sourceData"}
     ],
     "placeholderText": "Select option",
     "isDisabled": false,
@@ -30,6 +31,7 @@
     "mobileBottomRow": 18,
     "widgetName": "Select1",
     "isFilterable": true,
+    "dynamicPropertyPathList": [{"key": "sourceData"}],
     "displayName": "Select",
     "searchTags": ["dropdown"],
     "bottomRow": 14,
@@ -37,21 +39,9 @@
     "hideCard": false,
     "mobileRightColumn": 42,
     "parentColumnSpace": 11.890625,
+    "dynamicTriggerPathList": [],
     "labelPosition": "Top",
-    "sourceData": [
-        {
-            "code": "BLUE",
-            "name": "Blue"
-        },
-        {
-            "code": "GREEN",
-            "name": "Green"
-        },
-        {
-            "code": "RED",
-            "name": "Red"
-        }
-    ],
+    "sourceData": "{{Search_Users.data.map( (obj) =>{ return  {'label': obj.Created_At, 'value': obj.Email } })}}",
     "key": "z7g9s0h0lu",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,
