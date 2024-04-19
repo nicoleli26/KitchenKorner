@@ -4,7 +4,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 37,
     "widgetName": "Send",
-    "onClick": "{{closeModal('NewMessage').then(() => {\n  D_Message.run();\n  closeModal('');\n});}}",
+    "onClick": "{{closeModal('NewMessage').then(() => {\n  Send_Message.run();\n  closeModal('ModalNewMessage');\n});}}",
     "buttonColor": "{{appsmith.theme.colors.backgroundColor}}",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",

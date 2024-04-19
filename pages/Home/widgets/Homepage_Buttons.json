@@ -22,7 +22,7 @@
             "iconName": "person",
             "widgetId": "kw2jr5jk6h",
             "menuItems": {},
-            "index": 5,
+            "index": 4,
             "label": "",
             "isVisible": true,
             "buttonType": "SIMPLE",
@@ -105,26 +105,11 @@
                     "isDisabled": false
                 }
             },
-            "index": 4,
+            "index": 3,
             "label": "",
             "id": "groupButton3",
             "placement": "CENTER",
             "isVisible": true,
-            "isDisabled": false
-        },
-        "groupButton1": {
-            "onClick": "{{navigateTo('Cookbook', {}, 'SAME_WINDOW');}}",
-            "iconName": "heart",
-            "buttonColor": "#be185d",
-            "widgetId": "",
-            "menuItems": {},
-            "index": 3,
-            "label": "",
-            "isVisible": true,
-            "buttonType": "SIMPLE",
-            "iconAlign": "left",
-            "id": "groupButton1",
-            "placement": "CENTER",
             "isDisabled": false
         },
         "groupButton2": {
@@ -151,7 +136,6 @@
         {"key": "groupButtons.groupButtonbr7dts7ysp.onClick"},
         {"key": "groupButtons.groupButton3.onClick"},
         {"key": "groupButtons.groupButton2.onClick"},
-        {"key": "groupButtons.groupButton1.onClick"},
         {"key": "groupButtons.groupButton91wo1gqixy.onClick"}
     ],
     "leftColumn": 1,
