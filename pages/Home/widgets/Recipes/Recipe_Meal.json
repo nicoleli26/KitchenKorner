@@ -9,8 +9,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 38,
-    "bottomRow": 42,
+    "topRow": 34,
+    "bottomRow": 38,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -20,7 +20,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 11.578125,
     "dynamicTriggerPathList": [],
-    "leftColumn": 2,
+    "leftColumn": 37,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -32,7 +32,7 @@
     "text": "Meal: {{Get_Feed_Data.selectedRow.Meal_Type}}",
     "key": "4fg4xtwlve",
     "isDeprecated": false,
-    "rightColumn": 18,
+    "rightColumn": 53,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "k5y40x6wex",

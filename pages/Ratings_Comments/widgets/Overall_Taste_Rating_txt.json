@@ -9,8 +9,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 96,
-    "bottomRow": 100,
+    "topRow": 54,
+    "bottomRow": 58,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -20,7 +20,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 11.890625,
     "dynamicTriggerPathList": [],
-    "leftColumn": 1,
+    "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -32,7 +32,7 @@
     "text": "    Overall Taste Rating:",
     "key": "4fg4xtwlve",
     "isDeprecated": false,
-    "rightColumn": 27,
+    "rightColumn": 24,
     "backgroundColor": "#be185d",
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
