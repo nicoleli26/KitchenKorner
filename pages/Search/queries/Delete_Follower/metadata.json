@@ -2,7 +2,7 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "Delete_User",
+    "name": "Delete_Follower",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
@@ -65,7 +65,7 @@
     "userPermissions": [],
     "createdAt": "2024-04-19T09:29:04Z"
   },
-  "id": "Search_Delete_User",
+  "id": "Search_Delete_Follower",
   "deleted": false,
   "gitSyncId": "662048915e50b608b3f2e675_6622396015d00a2bec2894c4"
 }

@@ -4,7 +4,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 25,
     "widgetName": "Unfollow_B",
-    "onClick": "{{Delete_User.run()}}",
+    "onClick": "{{Delete_Follower.run()}}",
     "buttonColor": "#be185d",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
