@@ -1,10 +1,6 @@
 {
   "pages": [
     {
-      "id": "Cookbook",
-      "isDefault": false
-    },
-    {
       "id": "Account",
       "isDefault": false
     },
