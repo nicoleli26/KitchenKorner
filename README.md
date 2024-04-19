@@ -19,76 +19,76 @@ Welcome to KitchenKorner, your soon-to-be favorite social media platform focused
 
 
 ### User Interface
-Homepage: Contains the users feed, with access to messages, cookbook, profile, and search.
-Create Account: Includes a form to create an account for the app.
-Rating & Comments page: Allows users to leave comments and ratings on posts.
-Direct Messaging: Users can see and write messages.
-Create Posts: Allows users to create a post with a recipe.
-Search: Allows users to directly search up other users.
-Filters: Allows users to find recipes based on requirements they select in the filter.
-Recipe: Shows user a singular recipe they pull up.
-Make Post: Allows users to create a new post.
-Account: Allows users to look at their own profile.
+Homepage: Contains the users feed, with access to messages, cookbook, profile, and search.<br>
+Create Account: Includes a form to create an account for the app.<br>
+Rating & Comments page: Allows users to leave comments and ratings on posts.<br>
+Direct Messaging: Users can see and write messages.<br>
+Create Posts: Allows users to create a post with a recipe.<br>
+Search: Allows users to directly search up other users.<br>
+Filters: Allows users to find recipes based on requirements they select in the filter.<br>
+Recipe: Shows user a singular recipe they pull up.<br>
+Make Post: Allows users to create a new post.<br>
+Account: Allows users to look at their own profile.<br>
 
 
 ### Endpoints & Action
 
 #### GET
-Return a list of followers for a specific user
-Return a list of all recipes
-Return the details of the given recipe
-Return a list of all ingredients
-Return details of ingredient
-Return a list of all recipes saved under a users cookbook
-Returns all the users tagged in one post 
-Returns all comments under a post
-Returns the comment of a specific user under a post
-Returns all ratings under a post
-Returns posts without the specified keywords 
-Returns posts with the specified keywords
-Return all ingredients in a recipe
-Returns direct message from sender
-Returns external message from user 
-Returns a list of all the posts on a users feed
+Return a list of followers for a specific user<br>
+Return a list of all recipes<br>
+Return the details of the given recipe<br>
+Return a list of all ingredients<br>
+Return details of ingredient<br>
+Return a list of all recipes saved under a users cookbook<br>
+Returns all the users tagged in one post<br>
+Returns all comments under a post<br>
+Returns the comment of a specific user under a post<br>
+Returns all ratings under a post<br>
+Returns posts without the specified keywords<br>
+Returns posts with the specified keywords<br>
+Return all ingredients in a recipe<br>
+Returns direct message from sender<br>
+Returns external message from user<br>
+Returns a list of all the posts on a users feed<br>
 
 #### POST
-Adding a new user who joins the platform
-Adding a new follower to a user
-Adding a new ingredient into a recipe
-Adding a new recipe to the cookbook
-Create a post with a recipe
-Specific user adding a comment to a post
-Adding a new rating about the actual time to a post
-Adding a new rating about the actual difficulty to a post
-Create a new filter for keywords to filter out by
-Create a new filter to search for posts with recipes including the specified keywords 
-Sending a direct message to a user 
-Sending external message
+Adding a new user who joins the platform<br>
+Adding a new follower to a user<br>
+Adding a new ingredient into a recipe<br>
+Adding a new recipe to the cookbook<br>
+Create a post with a recipe<br>
+Specific user adding a comment to a post<br>
+Adding a new rating about the actual time to a post<br>
+Adding a new rating about the actual difficulty to a post<br>
+Create a new filter for keywords to filter out by<br>
+Create a new filter to search for posts with recipes including the specified keywords<br>
+Sending a direct message to a user<br>
+Sending external message<br>
 
 #### PUT
-Update attributes for this {recipe_id}
-Update the price of an ingredient
-Update average taste rating of a post
-Update average overall rating of actual time on a post
-Update average overall rating of actual difficulty on a
-Update keywords to filter out of recipes in posts
-Update keywords to filter into post recipes
-Update the feed with new posts
+Update attributes for this {recipe_id}<br>
+Update the price of an ingredient<br>
+Update average taste rating of a post<br>
+Update average overall rating of actual time on a post<br>
+Update average overall rating of actual difficulty on a<br>
+Update keywords to filter out of recipes in posts<br>
+Update keywords to filter into post recipes<br>
+Update the feed with new posts<br>
 
 #### DELETE
-Delete user from platform
-Follower unfollows the followee
-User removing a recipe from their cookbook
-Mark a post as archived
-Turn off comments under a post
-Delete a comment under a post from a specific user
-Delete the rating on a pos
-Delete/remove the filter 
-Delete/remove the filter
+Delete user from platform<br>
+Follower unfollows the followee<br>
+User removing a recipe from their cookbook<br>
+Mark a post as archived<br>
+Turn off comments under a post<br>
+Delete a comment under a post from a specific user<br>
+Delete the rating on a pos<br>
+Delete/remove the filter<br>
+Delete/remove the filter<br>
 
 
 #### Authors - SnacAttac
-Amelia Willmann - @ameliawillmann
-Nicole Li - @nicoleli26
-Sahithi Gaddam - @sahithigaddam
+Amelia Willmann - @ameliawillmann<br>
+Nicole Li - @nicoleli26<br>
+Sahithi Gaddam - @sahithigaddam<br>
 Catherina Haast - @caphaast
