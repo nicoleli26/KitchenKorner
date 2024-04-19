@@ -2,13 +2,13 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "Get_Filters",
+    "name": "Get_Feed",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
         "sshProxyEnabled": false,
-        "url": "web:4000/f/filters"
+        "url": "web:4000/f/feeds/10"
       },
       "invalids": [],
       "messages": [],
@@ -39,7 +39,7 @@
         "apiContentType": "none"
       }
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
@@ -49,9 +49,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-17T05:36:38Z"
+    "createdAt": "2024-04-16T00:39:42Z"
   },
-  "id": "Home_Get_Filters",
+  "id": "Home_Get_Feed",
   "deleted": false,
-  "gitSyncId": "66198b5d6aa18321b71a68f6_661f5fe6e439770d06d8feea"
+  "gitSyncId": "66198b5d6aa18321b71a68f6_661dc8ce7c06f752db34142b"
 }

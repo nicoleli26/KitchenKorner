@@ -3,7 +3,7 @@
     "borderColor": "#E0DEDE",
     "isVisibleDownload": true,
     "iconSVG": "/static/media/icon.e6911f8bb94dc6c4a102a74740c41763.svg",
-    "topRow": 12,
+    "topRow": 79,
     "isSortable": true,
     "type": "TABLE_WIDGET_V2",
     "inlineEditingSaveOption": "ROW_LEVEL",
@@ -12,23 +12,23 @@
         {"key": "accentColor"},
         {"key": "borderRadius"},
         {"key": "boxShadow"},
-        {"key": "tableData"},
         {"key": "primaryColumns.Cuisine.computedValue"},
         {"key": "primaryColumns.Expected_Difficulty.computedValue"},
         {"key": "primaryColumns.Expected_Time.computedValue"},
         {"key": "primaryColumns.Meal_Type.computedValue"},
         {"key": "primaryColumns.Recipe_Image.computedValue"},
         {"key": "primaryColumns.Recipe_Name.computedValue"},
-        {"key": "primaryColumns.Username.computedValue"}
+        {"key": "primaryColumns.Username.computedValue"},
+        {"key": "tableData"}
     ],
     "needsHeightForContent": true,
-    "leftColumn": 4,
+    "leftColumn": 5,
     "delimiter": ",",
     "defaultSelectedRowIndex": 0,
     "flexVerticalAlignment": "start",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "isVisibleFilters": true,
-    "isVisible": true,
+    "isVisible": false,
     "enableClientSideSearch": true,
     "version": 2,
     "totalRecordsCount": 0,
@@ -61,12 +61,12 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1713473363606,
-    "originalBottomRow": 40,
+    "columnUpdatedAt": 1713499119088,
+    "originalBottomRow": 37,
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
     "mobileBottomRow": 50,
-    "widgetName": "Table1",
+    "widgetName": "Get_Feed_Data",
     "defaultPageSize": 0,
     "columnOrder": [
         "Cuisine",
@@ -75,11 +75,12 @@
         "Meal_Type",
         "Recipe_Image",
         "Recipe_Name",
-        "Username"
+        "Username",
+        "customColumn1"
     ],
     "dynamicPropertyPathList": [{"key": "tableData"}],
     "displayName": "Table",
-    "bottomRow": 40,
+    "bottomRow": 107,
     "columnWidthMap": {},
     "parentRowSpace": 10,
     "hideCard": false,
@@ -89,7 +90,7 @@
     "borderWidth": "1",
     "primaryColumns": {
         "Meal_Type": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Meal_Type\"]))}}",
+            "computedValue": "{{Get_Feed_Data.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Meal_Type\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Meal_Type",
@@ -120,7 +121,7 @@
             "verticalAlignment": "CENTER"
         },
         "Cuisine": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Cuisine\"]))}}",
+            "computedValue": "{{Get_Feed_Data.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Cuisine\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Cuisine",
@@ -151,7 +152,7 @@
             "verticalAlignment": "CENTER"
         },
         "Expected_Difficulty": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Expected_Difficulty\"]))}}",
+            "computedValue": "{{Get_Feed_Data.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Expected_Difficulty\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Expected_Difficulty",
@@ -182,7 +183,7 @@
             "verticalAlignment": "CENTER"
         },
         "Username": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Username\"]))}}",
+            "computedValue": "{{Get_Feed_Data.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Username\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Username",
@@ -212,8 +213,41 @@
             "currencyCode": "USD",
             "verticalAlignment": "CENTER"
         },
+        "customColumn1": {
+            "computedValue": "",
+            "isEditable": false,
+            "notation": "standard",
+            "alias": "Post_ID",
+            "enableSort": true,
+            "isSaveVisible": true,
+            "id": "customColumn1",
+            "isDisabled": false,
+            "allowSameOptionsInNewRow": true,
+            "validation": {},
+            "isCellVisible": true,
+            "isDerived": true,
+            "textSize": "0.875rem",
+            "buttonStyle": "rgb(3, 179, 101)",
+            "allowCellWrapping": false,
+            "index": 7,
+            "isDiscardVisible": true,
+            "isVisible": true,
+            "label": "Post_ID",
+            "labelColor": "#FFFFFF",
+            "columnType": "text",
+            "thousandSeparator": true,
+            "horizontalAlignment": "LEFT",
+            "isCellEditable": false,
+            "decimals": 0,
+            "width": 150,
+            "enableFilter": true,
+            "sticky": "",
+            "originalId": "customColumn1",
+            "currencyCode": "USD",
+            "verticalAlignment": "CENTER"
+        },
         "Recipe_Image": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Recipe_Image\"]))}}",
+            "computedValue": "{{Get_Feed_Data.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Recipe_Image\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Recipe_Image",
@@ -244,7 +278,7 @@
             "verticalAlignment": "CENTER"
         },
         "Recipe_Name": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Recipe_Name\"]))}}",
+            "computedValue": "{{Get_Feed_Data.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Recipe_Name\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Recipe_Name",
@@ -275,7 +309,7 @@
             "verticalAlignment": "CENTER"
         },
         "Expected_Time": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Expected_Time\"]))}}",
+            "computedValue": "{{Get_Feed_Data.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Expected_Time\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Expected_Time",
@@ -309,7 +343,7 @@
     "key": "wcijigt0yz",
     "canFreezeColumn": true,
     "isDeprecated": false,
-    "rightColumn": 58,
+    "rightColumn": 59,
     "textSize": "0.875rem",
     "widgetId": "bfx9aefs3d",
     "minWidth": 450,
@@ -322,7 +356,7 @@
     "horizontalAlignment": "LEFT",
     "isVisibleSearch": true,
     "responsiveBehavior": "fill",
-    "originalTopRow": 12,
+    "originalTopRow": 9,
     "mobileLeftColumn": 10,
     "isVisiblePagination": true,
     "verticalAlignment": "CENTER"
