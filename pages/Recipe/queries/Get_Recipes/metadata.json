@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "Get_Cookbook",
+    "name": "Get_Recipes",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/c/cookbook"
+        "url": "web:4000/r/recipes/11"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Cookbook",
+    "pageId": "Recipe",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -38,7 +38,7 @@
         "apiContentType": "none"
       }
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
@@ -48,9 +48,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-19T02:15:40Z"
+    "createdAt": "2024-04-19T09:07:32Z"
   },
-  "id": "Cookbook_Get_Cookbook",
+  "id": "Recipe_Get_Recipes",
   "deleted": false,
-  "gitSyncId": "662048915e50b608b3f2e675_6621d3cc63f01d28f2935e9a"
+  "gitSyncId": "662048915e50b608b3f2e675_6622345415d00a2bec2894c2"
 }

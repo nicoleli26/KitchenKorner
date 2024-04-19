@@ -10,7 +10,7 @@
         "label"
     ],
     "topRow": 1,
-    "bottomRow": 5,
+    "bottomRow": 6,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -20,19 +20,20 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 11.578125,
     "dynamicTriggerPathList": [],
-    "leftColumn": 17,
+    "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
-        {"key": "borderRadius"}
+        {"key": "borderRadius"},
+        {"key": "text"}
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Name:\n",
+    "text": "{{Get_Recipe_Data.selectedRow.Recipe_Name}}\n",
     "key": "4fg4xtwlve",
     "isDeprecated": false,
-    "rightColumn": 33,
-    "textAlign": "LEFT",
+    "rightColumn": 64,
+    "textAlign": "CENTER",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "coj9345kv4",
     "minWidth": 450,
@@ -49,9 +50,11 @@
     "isLoading": false,
     "mobileTopRow": 1,
     "responsiveBehavior": "fill",
+    "originalTopRow": 1,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 16,
     "maxDynamicHeight": 9000,
-    "fontSize": "1rem",
+    "originalBottomRow": 6,
+    "fontSize": "1.875rem",
     "minDynamicHeight": 4
 }

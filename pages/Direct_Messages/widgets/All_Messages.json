@@ -61,7 +61,7 @@
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
     "mobileBottomRow": 55,
-    "widgetName": "Table2",
+    "widgetName": "All_Messages",
     "defaultPageSize": 0,
     "columnOrder": [
         "Message_Text",
@@ -79,7 +79,7 @@
     "borderWidth": "1",
     "primaryColumns": {
         "Message_Text": {
-            "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Message_Text\"]))}}",
+            "computedValue": "{{All_Messages.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Message_Text\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Message_Text",
@@ -110,7 +110,7 @@
             "verticalAlignment": "CENTER"
         },
         "Time_Sent": {
-            "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Time_Sent\"]))}}",
+            "computedValue": "{{All_Messages.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Time_Sent\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Time_Sent",
