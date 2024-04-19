@@ -10,7 +10,7 @@
     },
     {
       "id": "Home",
-      "isDefault": true
+      "isDefault": false
     },
     {
       "id": "Make_Post",
@@ -34,7 +34,7 @@
     },
     {
       "id": "Make_Account",
-      "isDefault": false
+      "isDefault": true
     },
     {
       "id": "Recipe",

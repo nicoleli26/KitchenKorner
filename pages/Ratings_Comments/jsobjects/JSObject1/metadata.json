@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "Ratings_Comments",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Ratings_Comments_JSObject1",
+  "deleted": false,
+  "gitSyncId": "661991abea788e07d112fea4_66224306422e9e079f216750"
+}

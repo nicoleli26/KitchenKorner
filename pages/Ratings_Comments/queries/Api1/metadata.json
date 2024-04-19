@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "Cuisines",
+    "name": "Api1",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/r/cuisines"
+        "url": "web:4000/r/ratings/4"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Filters",
+    "pageId": "Ratings_Comments",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -38,7 +38,7 @@
         "apiContentType": "none"
       }
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
@@ -48,9 +48,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-19T01:15:54Z"
+    "createdAt": "2024-04-19T07:32:37Z"
   },
-  "id": "Filters_Cuisines",
+  "id": "Ratings_Comments_Api1",
   "deleted": false,
-  "gitSyncId": "661991abea788e07d112fea4_6621c5ca422e9e079f2166f0"
+  "gitSyncId": "661991abea788e07d112fea4_66221e15422e9e079f216746"
 }

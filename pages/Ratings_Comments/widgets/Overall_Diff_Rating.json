@@ -2,6 +2,8 @@
     "needsErrorInfo": false,
     "mobileBottomRow": 56,
     "widgetName": "Overall_Diff_Rating",
+    "onRateChanged": "{{}}",
+    "dynamicPropertyPathList": [],
     "displayName": "Rating",
     "iconSVG": "/static/media/icon.2281d0260761c25b3504117eddb50d8d.svg",
     "searchTags": [
@@ -16,7 +18,7 @@
     "hideCard": false,
     "mobileRightColumn": 40,
     "animateLoading": true,
-    "isReadOnly": false,
+    "isReadOnly": true,
     "parentColumnSpace": 11.890625,
     "dynamicTriggerPathList": [],
     "leftColumn": 24,

@@ -2,6 +2,7 @@
     "needsErrorInfo": false,
     "mobileBottomRow": 36,
     "widgetName": "Your_Diff_Rating",
+    "onRateChanged": "{{New_Diff_Rating.run().then(() => {\n  storeValue(\"\", \"\");\n});}}",
     "displayName": "Rating",
     "iconSVG": "/static/media/icon.2281d0260761c25b3504117eddb50d8d.svg",
     "searchTags": [
@@ -18,7 +19,7 @@
     "animateLoading": true,
     "isReadOnly": false,
     "parentColumnSpace": 11.890625,
-    "dynamicTriggerPathList": [],
+    "dynamicTriggerPathList": [{"key": "onRateChanged"}],
     "leftColumn": 19,
     "dynamicBindingPathList": [],
     "isDisabled": false,
@@ -42,11 +43,5 @@
     "maxDynamicHeight": 9000,
     "isAllowHalf": false,
     "minDynamicHeight": 4,
-    "tooltips": [
-        "Terrible",
-        "Bad",
-        "Neutral",
-        "Good",
-        "Great"
-    ]
+    "tooltips": "[\n  \"Terrible\",\n  \"Bad\",\n  \"Neutral\",\n  \"Good\",\n  \"Great\"\n]"
 }
