@@ -60,6 +60,6 @@
     "originalTopRow": 14,
     "mobileLeftColumn": 2,
     "maxDynamicHeight": 9000,
-    "onOptionChange": "{{Get_Messages.run()}}",
+    "onOptionChange": "{{Get_Messages.run(Receiver_ID.selectedOptionValue);}}",
     "minDynamicHeight": 4
 }
