@@ -2,7 +2,7 @@
     "needsErrorInfo": false,
     "boxShadow": "none",
     "mobileBottomRow": 4,
-    "widgetName": "Text1",
+    "widgetName": "username",
     "displayName": "Text",
     "iconSVG": "/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
     "searchTags": [
@@ -22,13 +22,12 @@
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
-        {"key": "borderRadius"},
-        {"key": "text"}
+        {"key": "borderRadius"}
     ],
     "leftColumn": 1,
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "{{Receiver_Username.username}}",
+    "text": "Username: ",
     "key": "3387jyzuo8",
     "isDeprecated": false,
     "rightColumn": 13,

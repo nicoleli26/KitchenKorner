@@ -2,7 +2,7 @@
     "needsErrorInfo": false,
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
     "mobileBottomRow": 36,
-    "widgetName": "Recipe_Container_Rat",
+    "widgetName": "Recipe_Container",
     "borderColor": "#E0DEDE",
     "isCanvas": true,
     "displayName": "Container",
@@ -12,8 +12,8 @@
         "parent",
         "group"
     ],
-    "topRow": 28,
-    "bottomRow": 63,
+    "topRow": 10,
+    "bottomRow": 45,
     "parentRowSpace": 10,
     "type": "CONTAINER_WIDGET",
     "hideCard": false,
@@ -22,7 +22,7 @@
     "animateLoading": true,
     "parentColumnSpace": 11.890625,
     "dynamicTriggerPathList": [],
-    "leftColumn": 0,
+    "leftColumn": 1,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "boxShadow"}
@@ -73,7 +73,7 @@
     "key": "qevt7xgvyl",
     "backgroundColor": "#FFFFFF",
     "isDeprecated": false,
-    "rightColumn": 63,
+    "rightColumn": 64,
     "dynamicHeight": "FIXED",
     "widgetId": "jf7q6hdwgi",
     "containerStyle": "card",
