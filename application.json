@@ -1,6 +1,10 @@
 {
   "pages": [
     {
+      "id": "Cookbook",
+      "isDefault": false
+    },
+    {
       "id": "Account",
       "isDefault": false
     },
@@ -14,10 +18,6 @@
     },
     {
       "id": "Search",
-      "isDefault": false
-    },
-    {
-      "id": "Cookbook",
       "isDefault": false
     },
     {
