@@ -1,15 +1,15 @@
 {
     "needsErrorInfo": false,
     "mobileBottomRow": 36,
-    "widgetName": "Your_RatingCopy",
+    "widgetName": "Your_Diff_Rating",
     "displayName": "Rating",
     "iconSVG": "/static/media/icon.2281d0260761c25b3504117eddb50d8d.svg",
     "searchTags": [
         "stars",
         "rate"
     ],
-    "topRow": 12,
-    "bottomRow": 16,
+    "topRow": 7,
+    "bottomRow": 11,
     "parentRowSpace": 10,
     "type": "RATE_WIDGET",
     "maxCount": "10",
@@ -28,7 +28,7 @@
     "rightColumn": 44,
     "inactiveColor": "#E0DEDE",
     "dynamicHeight": "FIXED",
-    "widgetId": "8d3cge86oo",
+    "widgetId": "ump0qzevpo",
     "isVisible": true,
     "parentId": "0",
     "tags": ["Content"],
