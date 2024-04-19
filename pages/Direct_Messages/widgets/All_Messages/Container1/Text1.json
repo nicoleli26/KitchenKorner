@@ -1,8 +1,8 @@
 {
     "needsErrorInfo": false,
     "boxShadow": "none",
-    "mobileBottomRow": 8,
-    "widgetName": "Text3",
+    "mobileBottomRow": 4,
+    "widgetName": "Text1",
     "displayName": "Text",
     "iconSVG": "/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
     "searchTags": [
@@ -10,58 +10,49 @@
         "paragraph",
         "label"
     ],
-    "topRow": 4,
-    "bottomRow": 8,
+    "topRow": 0,
+    "bottomRow": 4,
     "type": "TEXT_WIDGET",
     "hideCard": false,
-    "mobileRightColumn": 24,
+    "mobileRightColumn": 28,
     "animateLoading": true,
     "overflow": "NONE",
     "dynamicTriggerPathList": [],
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "dynamicBindingPathList": [
-        {"key": "text"},
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
         {"key": "borderRadius"},
         {"key": "text"}
     ],
-<<<<<<<< HEAD:pages/Direct_Messages/widgets/All_Messages/Container1/Text1.json
     "leftColumn": 1,
-========
-    "leftColumn": 52,
->>>>>>>> master:pages/Feed/widgets/List1/Container1/Text3.json
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "{{currentItem.id}}",
-    "key": "ddezwyuyd3",
+    "text": "{{Receiver_Username.username}}",
+    "key": "3387jyzuo8",
     "isDeprecated": false,
-<<<<<<<< HEAD:pages/Direct_Messages/widgets/All_Messages/Container1/Text1.json
     "rightColumn": 13,
-========
-    "rightColumn": 60,
->>>>>>>> master:pages/Feed/widgets/List1/Container1/Text3.json
     "textAlign": "LEFT",
     "dynamicHeight": "FIXED",
-    "widgetId": "er6cytlgo1",
+    "widgetId": "29jjrsa2dn",
     "minWidth": 450,
     "isVisible": true,
     "fontStyle": "BOLD",
     "textColor": "#231F20",
     "version": 1,
-    "parentId": "our4p4024i",
+    "parentId": "fzzpsc6f65",
     "tags": [
         "Suggested",
         "Content"
     ],
     "renderMode": "CANVAS",
     "isLoading": false,
-    "mobileTopRow": 4,
+    "mobileTopRow": 0,
     "responsiveBehavior": "fill",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 16,
     "maxDynamicHeight": 9000,
     "fontSize": "1rem",
-    "textStyle": "BODY",
+    "textStyle": "HEADING",
     "minDynamicHeight": 4
 }

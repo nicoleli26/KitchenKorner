@@ -4,24 +4,22 @@
     "boxShadow": "none",
     "mobileBottomRow": 37,
     "widgetName": "Button4",
-    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "buttonColor": "#be185d",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
     "searchTags": [
         "click",
         "submit"
     ],
-    "topRow": 33,
-    "bottomRow": 37,
+    "topRow": 29,
+    "bottomRow": 33,
     "type": "BUTTON_WIDGET",
     "hideCard": false,
     "mobileRightColumn": 46,
     "animateLoading": true,
+    "dynamicTriggerPathList": [],
     "leftColumn": 30,
-    "dynamicBindingPathList": [
-        {"key": "buttonColor"},
-        {"key": "borderRadius"}
-    ],
+    "dynamicBindingPathList": [{"key": "borderRadius"}],
     "text": "Reset",
     "isDisabled": false,
     "key": "z3ljg87ylw",
@@ -39,9 +37,11 @@
     "isLoading": false,
     "mobileTopRow": 33,
     "responsiveBehavior": "hug",
+    "originalTopRow": 33,
     "disabledWhenInvalid": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 30,
+    "originalBottomRow": 37,
     "buttonVariant": "SECONDARY",
     "placement": "CENTER"
 }
