@@ -8,7 +8,7 @@
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
         "sshProxyEnabled": false,
-        "url": "web:4000/f/feeds/10"
+        "url": "web:4000/f/feeds/id"
       },
       "invalids": [],
       "messages": [],

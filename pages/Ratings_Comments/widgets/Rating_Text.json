@@ -29,7 +29,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Try out the recipe, leaving a review!",
+    "text": "Try out the recipe, leave a review!",
     "key": "4fg4xtwlve",
     "isDeprecated": false,
     "rightColumn": 64,
