@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 690,
+          "bottomRow": 920,
           "containerStyle": "none",
           "snapRows": 128,
           "parentRowSpace": 1,
@@ -28,8 +28,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Account_Get_Users",
-              "name": "Get_Users",
+              "id": "Account_Get_User_Posts",
+              "name": "Get_User_Posts",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
